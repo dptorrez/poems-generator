@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(249, 225, 225);
+}
+.boxed {
+    margin: 120px auto 0;
+    max-width: 600px;
+}
+h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: rgb(52, 8, 8);
+    text-align: center;
+}
+.icon {
+    width: 43px;
+    height: 45px;
+    vertical-align: top;
+}
+header {
+    margin-bottom: 30px;
+}
+form {
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    display: flex;
+    box-shadow: 0px 20px 60px rgba(4, 0, 0, 0.27);
+    margin-bottom: 30px;
+    background-image: url(../images/pink-flower02.jpg);
+    background-repeat: no-repeat;
+}
+.prompt {
+    padding: 16px;
+    border: 1px solid rgb(102, 19, 19);
+    border-radius: 5px;
+    width: 80%;
+    font-size: 15px;
+    line-height: 10px;
+    color: rgb(90, 61, 61);
+    height: 10px;
+    font-style: italic;
+}
+.submitting-button {
+    margin-left: 12px;
+    background-color: rgb(108, 4, 4);
+    color: rgb(206, 181, 183);
+    border: none;
+    width: 120px;
+    border-radius: 7px;
+    padding: 14px 24px;
+    font-size: 16px;
+}
+.poem {
+    color: rgb(165, 121, 124);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    line-height: 23px;
+    border-left: 3px solid rgb(102, 19, 19);
+    box-shadow: 0px 20px 60px rgba(4, 0, 0, 0.173);
+    border-radius: 3px;
+    background-color: black;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+a {
+    color:  rgb(108, 4, 4);;
+}

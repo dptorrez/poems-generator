@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(249, 225, 225);
+    background: radial-gradient(circle, rgb(249, 225, 225) 0%, rgba(252, 70, 106, 0.74) 100%);
 }
 .boxed {
     margin: 120px auto 0;
@@ -76,6 +76,7 @@ a {
 
 .blink {
     animation: blink-animation 1s steps(5, start) infinite;
+
   }
   @keyframes blink-animation {
     to {

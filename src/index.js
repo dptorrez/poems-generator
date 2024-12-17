@@ -9,7 +9,11 @@ function generatePoem(event) {
 
 
 axios.get(apiUrl).then(revealPoem);
-    
+
+    let poemElement = document.querySelector("#poem");
+    poemElement.classList.remove("hidden");
+    poemElement.innerHTML = `<div class="blink"> Generating a love poem about ${poemInstructions.value}...</div>`;
+
 }
 
 let poemForm = document.querySelector("#poem-generator-form");
@@ -25,7 +29,4 @@ function revealPoem(response) {
         delay: 10,
       });
 }
-
-
-
-
+            
